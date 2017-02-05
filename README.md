@@ -38,8 +38,9 @@ AfterEffectScriptを統合的に管理するものを作る
 - 基本的にユーザーが使う `.zxp`
 - 拡張機能(HTML5)で実装
 - ~~localstorageにpackage.json的なものを持たせる~~
-  - AEのバージョン変わった時にコピペさせるよりかはローカルにpackage.json的なもの持たせたほうが良さそう
-  - いい感じに全バージョン共通で同じjsxファイル呼び出せるようにできれば最高ではあるかも
+- AEのバージョン変わった時にコピペさせるよりかはローカルにpackage.json的なもの持たせたほうが良さそう
+- いい感じに全バージョン共通で同じjsxファイル呼び出せるようにできれば最高ではあるかも
+
 - API駆動、vue.js +  ExtendScript(CSInterface)
 - オフラインでも動作はさせる `navigator.onLine `
 
